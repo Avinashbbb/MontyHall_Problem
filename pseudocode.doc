@@ -1,0 +1,21 @@
+Pseudocode
+create 3 classes as per the requirment
+the first class is for the door object the second class is for the game object and the third class is for storing the results of the game simulation.
+most of the work/coding should be in the game class.
+create 3 keys to creat 3 door object in the game class.
+on the ky doors creat a array of the three doors.
+create a method that returns a value for every key and call the method in the class against the respective keys.
+
+method for door picked shoud include a function to choose a random object from th doors arrar(key)
+
+method  for the goat door opened should return a door object that is not the doorpicked and that doesnt have a car in it and should change the key opened of the returned object to true.
+
+method for finalpick should take a parameter that can be used for a true or false question. this is the parameter that decides to chage the door or not.
+this method return the same object as door picked if the parameter doest want to change the choice.
+if the parameter does ask to change then the return object should have the key opend as fase and should not be the same as door picked.
+
+method for the won key shouold return a true or false statement saying if the player won or lost.the player wins in the key is car is equal to true in the object finalpick else he looses.
+
+now after all the 3 classes are created its time to create a main function.
+the main finction should creat a object from the class statistic and run the game and store the results of the game in the object created. this function should also have a for loop that runns the game x amount of time.the x amount of time should be a parameter passed in to the function.
+at the end should console log the results.
