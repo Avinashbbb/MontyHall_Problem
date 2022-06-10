@@ -81,8 +81,8 @@ for (let i = 0; i < number; i++){
 let gameWithDoorChangeWon = (statistics.gamesWithDoorChangeWon.length/number)*100;
 let gameWithSameDoorWon = (statistics.gamesWithSameDoorWon.length/number)*100;
 console.log(`${gameWithDoorChangeWon.toFixed(2)}% of games were won switching doors`);
-console.log(`${gameWithSameDoorWon.toFixed(2)}% of games wre won when not switching doors`);
+console.log(`${gameWithSameDoorWon.toFixed(2)}% of games were won when not switching doors`);
 }
-simulateTheGame(100000)
+simulateTheGame(100000);
 
 
